@@ -1,0 +1,41 @@
+{
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarTitleText": "sccm",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "type": "home",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/user/user",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      },
+      "needLogin": true
+    }
+  ],
+  "subPackages": []
+}
