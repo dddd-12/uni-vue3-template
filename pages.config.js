@@ -14,4 +14,13 @@ export default defineUniPages({
       '^wd-(.*)': 'wot-design-uni/components/wd-$1/wd-$1.vue',
     },
   },
+  pages: [
+    {
+      path: "pages/index/index",
+      style: {}
+    }, {
+      path: "pages/login/login",
+      style: {}
+    }
+  ]
 })
