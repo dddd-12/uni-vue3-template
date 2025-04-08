@@ -70,7 +70,7 @@
     "@vue/runtime-core": "^3.5.13",
     "eslint": "^9.21.0",
     "lint-staged": "^15.4.3",
-    "sass": "^1.85.1",
+    "sass": "^1.78.0",
     "unocss": "0.58.9",
     "unocss-applet": "0.7.8",
     "unplugin-auto-import": "^19.1.1",

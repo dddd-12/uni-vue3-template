@@ -16,17 +16,12 @@
     {
       "path": "pages/index/index",
       "type": "home",
-      "style": {
-        "navigationStyle": "custom",
-        "navigationBarTitleText": "首页"
-      }
+      "style": {}
     },
     {
       "path": "pages/login/login",
       "type": "page",
-      "style": {
-        "navigationBarTitleText": "登录"
-      }
+      "style": {}
     },
     {
       "path": "pages/user/user",
